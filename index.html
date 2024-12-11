@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of WKS - Workout Songs</h1>
+            <div class="songContainer">
+            <!-- Song Item 1 -->
+            <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover1.svg" alt="1" id="cover-image">
+                    <span>Beat</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Song Item 3 -->
+            <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover2.webp" alt="3" id="cover-image">
+                    <span>Once again</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Song Item 4 -->
+            <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover3.webp" alt="4" id="cover-image">
+                    <span>Blast</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Song Item 5 -->
+            <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover4.webp" alt="5" id="cover-image">
+                    <span>Energizer</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+
+               <!-- Song Item 2 -->
+               <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover5.webp" alt="2" id="cover-image">
+                    <span>Living</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Song Item 6 -->
+            <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover6.webp" alt="5" id="cover-image">
+                    <span>Onion</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+            <!-- Song Item 7 -->
+            <div class="songItemContainer">
+                <div class="songItem song12">
+                    <img src="cover7.webp" alt="5" id="cover-image">
+                    <span>Cloud</span>
+                    <span class="songListplay">
+                        <span class="timestamp">2:00 <i class="songItemPlay fa-regular fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="bottom">
+
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+
+        <div class="icons">
+            <!-- Font Awesome icons -->
+            <i class="fa-3x fa-solid fa-backward icon" id="backward"></i>
+            <i class="fa-3x fa-regular fa-circle-play icon" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-forward icon" id="forward"></i>
+        </div>
+        <img src="wave-15901_256.gif" alt="song playing animation" class="gif" id="gif">
+    </div>
+         <script src="script.js"></script>
+</body>
+
+</html>
